@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta charset="UTF-8"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>Perspective Playground</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="app">
-      <h2>CSS3 Perspective Playground</h2>
       <main>
         <section class="settings">
           <div class="settings-container">
@@ -21,8 +20,8 @@
             <label>rotateY: {{ rotateY }}deg; </label>
             <input type="range" min="-180" max="180" v-model="rotateY" />
 
-            <label>rotateZ: {{ rorateZ }}deg; </label>
-            <input type="range" min="-180" max="180" v-model="rorateZ" />
+            <label>rotateZ: {{ rotateZ }}deg; </label>
+            <input type="range" min="-180" max="180" v-model="rotateZ" />
 
             <button type="button" @click.prevent="Reset">Reset</button>
             <button type="button" @click.prevent="Copy">Copy</button>
